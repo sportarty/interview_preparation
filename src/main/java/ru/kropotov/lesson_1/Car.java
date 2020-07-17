@@ -3,7 +3,7 @@ package ru.kropotov.lesson_1;
 /**
  * Created by Artem Kropotov on 17.07.2020
  */
-abstract class Car {
+abstract class Car implements Moveable, Stopable {
     public Engine engine;
     private String color;
     private String name;
